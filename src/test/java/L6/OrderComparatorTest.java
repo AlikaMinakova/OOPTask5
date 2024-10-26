@@ -1,9 +1,10 @@
 package L6;
 
 
-import L6.comparator.OrderComparator;
+
 import L6.model.Order;
 import L6.model.Person;
+import L6.model.comparator.OrderComparator;
 import org.junit.jupiter.api.*;
 
 import java.time.LocalDate;
@@ -51,6 +52,17 @@ class OrderComparatorTest {
         orders.add(two);
         orders.add(one);
         orders.sort(Comparator.comparing(Order::getId));
+        Assertions.assertEquals(orders.get(0), one);
+        Assertions.assertEquals(orders.get(1), two);
+
+    }
+    @Test
+    @DisplayName("Сортировка только по названию")
+    void sortOrderByTitle() {
+        List<Order> orders = new ArrayList<>();
+        orders.add(two);
+        orders.add(one);
+        orders.sort(new OrderComparator());
         Assertions.assertEquals(orders.get(0), one);
         Assertions.assertEquals(orders.get(1), two);
 
