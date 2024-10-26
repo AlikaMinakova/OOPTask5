@@ -1,10 +1,10 @@
-package model.doctor;
+package L5.model.doctor;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import model.Specialize;
-import model.patient.Patient;
+import L5.model.Specialize;
+import L5.model.patient.Patient;
 
 import java.util.List;
 

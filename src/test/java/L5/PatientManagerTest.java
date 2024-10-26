@@ -1,9 +1,11 @@
-import exception.WrongDateException;
-import model.Specialize;
-import model.patient.Patient;
+package L5;
+
+import L5.exception.WrongDateException;
+import L5.model.Specialize;
+import L5.model.patient.Patient;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import service.PatientManager;
+import L5.service.PatientManager;
 
 import java.time.LocalDate;
 

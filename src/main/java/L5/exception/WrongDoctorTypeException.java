@@ -1,4 +1,4 @@
-package exception;
+package L5.exception;
 
 public class WrongDoctorTypeException extends Exception {
 

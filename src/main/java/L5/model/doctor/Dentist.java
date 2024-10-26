@@ -1,10 +1,10 @@
-package model.doctor;
+package L5.model.doctor;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Specialize;
-import model.patient.*;
+import L5.model.Specialize;
+import L5.model.patient.Patient;
 
 public class Dentist extends Doctor {
 

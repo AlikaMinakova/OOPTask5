@@ -1,4 +1,4 @@
-package exception;
+package L5.exception;
 
 public class WrongDateException extends RuntimeException {
 

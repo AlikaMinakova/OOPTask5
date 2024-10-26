@@ -1,11 +1,11 @@
-package service;
+package L5.service;
 
-import exception.DoctorIsBusyException;
-import exception.WrongDoctorTypeException;
+import L5.exception.DoctorIsBusyException;
+import L5.model.doctor.Doctor;
+import L5.exception.WrongDoctorTypeException;
 import lombok.extern.slf4j.Slf4j;
-import model.Specialize;
-import model.doctor.Doctor;
-import model.patient.Patient;
+import L5.model.Specialize;
+import L5.model.patient.Patient;
 
 import java.util.HashMap;
 import java.util.Map;

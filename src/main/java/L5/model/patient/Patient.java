@@ -1,7 +1,7 @@
-package model.patient;
+package L5.model.patient;
 
 import lombok.*;
-import model.Specialize;
+import L5.model.Specialize;
 
 import java.time.LocalDate;
 

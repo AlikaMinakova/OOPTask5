@@ -1,10 +1,12 @@
-import exception.DoctorIsBusyException;
-import model.Specialize;
-import model.doctor.Dentist;
-import model.doctor.Doctor;
-import model.patient.Patient;
+package L5;
+
+import L5.exception.DoctorIsBusyException;
+import L5.model.Specialize;
+import L5.model.doctor.Dentist;
+import L5.model.doctor.Doctor;
+import L5.model.patient.Patient;
 import org.junit.jupiter.api.*;
-import service.DoctorManager;
+import L5.service.DoctorManager;
 
 import java.time.LocalDate;
 import java.util.List;
